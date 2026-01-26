@@ -27,7 +27,7 @@ const imageSource =
         , `images/pea.png`
     ]
 //Image alts (accessed in update function)
-const imageAlts = 
+const imageAlt = 
     [
         `A piece of paper.`
         , `A few strands of hair.`
@@ -99,4 +99,5 @@ function update()
     }
 
 }
+
 
