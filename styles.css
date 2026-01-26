@@ -1,0 +1,122 @@
+/*Removing all margins*/
+.element 
+{
+    margin: 0px;
+}
+/*Flexbox styling*/
+.flexbox
+{
+    display: flex;
+    justify-content: center;
+}
+
+.vertical-flexbox
+{
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.big-flexbox
+{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    justify-content: center;
+}
+/*Button styling*/
+
+.button 
+{
+    font-size: 12px;
+    border-style: solid;
+    border-width: 2px;
+    height: 25px;
+    border-radius: 8px;
+    transition: 1.25s ease-in-out;
+    width: 100px;
+}
+
+.button:hover 
+{
+    cursor: pointer;
+}
+/*OOCSS background styling*/
+
+.green-bg 
+{
+    background-color: green;
+}
+
+.light-green-bg
+{
+    background-color: #90ee90;
+}
+
+.light-red-bg
+{
+    background-color: #FF7F7F;
+}
+/*OOCSS hover background options (hbg = hover background)*/
+
+.green-hbg:hover
+{
+    background-color: green;
+}
+
+.red-hbg:hover 
+{
+    background-color: red;
+}
+/*OOCSS border styling*/
+
+.green-border 
+{
+    border-color: green;
+}
+
+.red-border
+{
+    border-color: red;
+}
+/*Text styling*/
+
+.text 
+{
+    min-height: 1px;
+}
+
+.centered-text 
+{
+    text-align: center;
+}
+.title 
+{
+    height: 1%;
+}
+/*Height and Width styling (pxh = px height, pxw = px width)*/
+
+.pxh400 
+{
+    height: 400px;
+}
+.pxw25
+{
+    width: 25px;
+}
+.pxh25
+{
+    height: 25px;
+}
+.auto-width
+{
+    width: auto;
+}
+
+/*Body styling*/
+body, html 
+{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
