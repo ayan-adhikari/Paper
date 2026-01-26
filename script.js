@@ -43,16 +43,16 @@ const imageAlt =
 //Fold limit variable
 let foldLimit = description.length - 1
 //Assigning button ids to variuables for event listeners.
-const fold = document.getElementById("fold")
-const unfold = document.getElementById("unfold")
+const fold = document.getElementById("fold-button")
+const unfold = document.getElementById("unfoldfold-button")
 //Event listeners
-fold.addEventListener("click", fold)
-unfold.addEventListener("click", fold)
+fold.addEventListener("click", foldF)
+unfold.addEventListener("click", unfoldF)
 //Generating ui
 image.src = imageSource[0]
 document.getElementById(`description-text`).textContent = description[0]
 //Fold function (Triggered by pressing the fold button)
-function fold()
+function foldF()
 { 
     if (folds < foldLimit)
     {
@@ -68,7 +68,7 @@ function fold()
     update()
 }
 //Unfold function (Triggered by pressing the unfold button)
-function unfold()
+function unfoldF()
 {
     if (folds >= 1)
     {
