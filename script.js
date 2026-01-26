@@ -1,8 +1,8 @@
 //Variables
 let folds = 0
-let image = document.getElementById("image")
+let image = document.getElementById(`image`)
 let error = false
-let errorMessage = ""
+let errorMessage = ``
 //Arrays
 //Descriptions (accessed in update function)
 const description =
@@ -41,7 +41,7 @@ const imageAlt =
 let foldLimit = description.length - 1
 //Generating ui
 image.src = imageSource[0]
-document.getElementById("description-text").textContent = description[0]
+document.getElementById(`description-text`).textContent = description[0]
 //Fold function (Triggered by pressing the fold button)
 function fold()
 { 
@@ -54,7 +54,7 @@ function fold()
     else
     {
         error = true
-        errorMessage = "The paper has become too thick to fold again."
+        errorMessage = `The paper has become too thick to fold again.`
     }
     update()
 }
@@ -79,17 +79,17 @@ function update()
     if (error == true)
     {
         //Update error message
-        document.getElementById("error-msg").textContent = errorMessage
+        document.getElementById(`error-msg`).textContent = errorMessage
     }
     else
     {
         //Update error message to be blank
-        document.getElementById("error-msg").textContent = ``
+        document.getElementById(`error-msg`).textContent = ``
     }
     //Update fold counter
-    document.getElementById("folds").textContent = `Folds: ${folds}`
+    document.getElementById(`folds`).textContent = `Folds: ${folds}`
     //Update description 
-    document.getElementById("description-text").textContent = description[folds]
+    document.getElementById(`description-text`).textContent = description[folds]
 
     if (folds < imageSource.length)
     {
@@ -99,5 +99,6 @@ function update()
     }
 
 }
+
 
 
