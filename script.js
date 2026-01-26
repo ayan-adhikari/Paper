@@ -10,7 +10,7 @@ const description =
         `You have a piece of paper that is 0.1mm thick.`
         , `Your piece of paper is now 0.2mm thick, the thickness of a human hair.`
         , `Your piece of paper is now 0.4mm thick, the thickness of a standard playing card.`
-        , `Your piece of paper is now 0.8mm thick, the thickness of a creadit card.`
+        , `Your piece of paper is now 0.8mm thick, the thickness of a credit card.`
         , `Your piece of paper is now 1.6mm thick, the thickness of a penny.`
         //, `Your piece of paper is now 3.2mm thick, the thickness of a x. `
     ]
@@ -92,5 +92,7 @@ function update()
     {
         //Update image
         image.src = imageSource[folds]
+        image.alt = imageAlt[folds]
     }
+
 }
