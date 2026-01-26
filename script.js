@@ -12,7 +12,8 @@ const description =
         , `Your piece of paper is now 0.4mm thick, the thickness of a standard playing card.`
         , `Your piece of paper is now 0.8mm thick, the thickness of a credit card.`
         , `Your piece of paper is now 1.6mm thick, the thickness of a penny.`
-        //, `Your piece of paper is now 3.2mm thick, the thickness of a x. `
+        , `Your piece of paper is now 3.2mm thick, the size of a small fruitfly.`
+        , `Your piece of paper is now 6.4mm thick, the width a of a small pea.`
     ]
 //Image srcs (accessed in update function)
 const imageSource =
@@ -22,7 +23,8 @@ const imageSource =
         , `images/playing-card.png`
         , 'images/credit-card.png'
         , `images/penny.png`
-        //, `images/x.png`
+        , `images/fruit-fly.png`
+        , `images/pea.png`
     ]
 //Image alts (accessed in update function)
 const imageAlts = 
@@ -31,8 +33,9 @@ const imageAlts =
         , `A few strands of hair.`
         , `Some playing cards spread out on a desk.`
         , `A stack of credit cards.`
-        , `A penny`
-        , ``
+        , `A penny.`
+        , `A small fruitfly.`
+        , `A pea.`
     ]
 //Fold limit variable
 let foldLimit = description.length - 1
@@ -96,3 +99,4 @@ function update()
     }
 
 }
+
