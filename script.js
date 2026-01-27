@@ -26,7 +26,7 @@ const imageSource =
         , `images/penny.png`
         , `images/fruit-fly.png`
         , `images/pea.png`
-        , `images/keycap.png`
+        , `images/keyboard.png`
     ]
 //Image alts (accessed in update function)
 const imageAlt = 
