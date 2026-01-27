@@ -4,7 +4,7 @@
     <!--------------------------------------------------------->
     <title>Paper</title>
     <!--Base-->
-    <!--<base href="/Paper/">--> 
+    <!--<base href="/Paper/"> Commented out due to causing issues--> 
     <!--HTML + CSS files-->
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="styles.css">
@@ -12,7 +12,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-    <!--<link rel="manifest" href="favicons/site.webmanifest">-->
+    <!--<link rel="manifest" href="favicons/site.webmanifest"> Commented out due to causing issues.--> 
 
 </head>
 
@@ -28,23 +28,33 @@
         <!--Paper image-->
         <img id="image" class="image pxh400 auto-width element">
 
-        <!--Buttons (inside a  horizontal flexbox)-->
+        <!--Spacing element-->
         <div class="pxh15 element"></div>
+        <!--Buttons (inside a  horizontal flexbox)-->
+
         <div class="flexbox element">
+
             <button id= "fold-button" class="fold button light-green-bg green-hbg green-border element">Fold</button>
             <div class="pxw25 element"></div>
+
             <button id= "unfold-button" class="unfold button light-red-bg red-hbg red-border element">Unfold</button>
+        
         </div>
 
-        <!--Description-->
+        <!--Spacing element-->
         <div class="pxh25 element"></div>
+
+        <!--Description-->
         <p id="description-text" class="text element"></p>
 
+        <!--Spacing element-->
         <div class="pxh25 element"></div>
+
         <!--Error message-->
         <p id="error-msg" class="text element error"></p>
 
     </div>
-
+    <!--Spacing element-->
+    <div class="pxh25 element"></div>
 </body>
 </html>

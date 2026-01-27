@@ -36,8 +36,8 @@ const imageSource =
         , `images/pea.png`
         , `images/keyboard.png`
         , `images/quarter.png`
-        ,`images/src.png`
         ,`images/battery.png`
+        //,`images/src.png`
         //,`images/src.png`
         //,`images/src.png`
         //,`images/src.png`
