@@ -16,13 +16,13 @@ const description =
         , `Your piece of paper is now 6.4mm thick, the width a of a small pea.`
         , `Your piece of paper is now 12.8mm thick, the width of a keycap.`
         , `Your piece of paper is now 25.6mm thick, the width of a quarter.`
-        //,`Your piece of paper is now size measurement, the unit of a item.`
-        //,`Your piece of paper is now size measurement, the unit of a item.`
-        //,`Your piece of paper is now size measurement, the unit of a item.`
-        //,`Your piece of paper is now size measurement, the unit of a item.`
-        //,`Your piece of paper is now size measurement, the unit of a item.`
-        //,`Your piece of paper is now size measurement, the unit of a item.`
-        //,`Your piece of paper is now size measurement, the unit of a item.`
+        ,`Your piece of paper is now 5.12cm thick, the length of a AA battery.`
+        //,`Your piece of paper is now 10.24cm thick, the measurement of a item.`
+        //,`Your piece of paper is now 20.48cm thick, the measurement of a item.`
+        //,`Your piece of paper is now 4.096cm thick, the measurement of a item.`
+        //,`Your piece of paper is now 81.92cm thick, the measurement of a item.`
+        //,`Your piece of paper is now 1.6384m thick, the measurement of a item.`
+        //,`Your piece of paper is now 3.2768m thick, the measurement of a item.`
     ]
 //Image srcs (accessed in update function)
 const imageSource =
@@ -36,8 +36,8 @@ const imageSource =
         , `images/pea.png`
         , `images/keyboard.png`
         , `images/quarter.png`
-        //,`images/src.png`
-        //,`images/src.png`
+        ,`images/src.png`
+        ,`images/battery.png`
         //,`images/src.png`
         //,`images/src.png`
         //,`images/src.png`
@@ -56,7 +56,7 @@ const imageAlt =
         , `A pea.`
         , `A keyboard.`
         , `A quarter.`
-        //,`alt`
+        ,`A double a battery.`
         //,`alt`
         //,`alt`
         //,`alt`
@@ -72,6 +72,11 @@ const unfold = document.getElementById("unfold-button")
 //Event listeners
 fold.addEventListener("click", foldF)
 unfold.addEventListener("click", unfoldF)
+//Preloading images
+for (let i = 0; i < imageSource.length; i++) {
+    const image = imageSource[i];
+}
+
 //Generating ui
 image.src = imageSource[0]
 document.getElementById(`description-text`).textContent = description[0]
