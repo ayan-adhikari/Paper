@@ -15,18 +15,34 @@ const description =
         , `Your piece of paper is now 3.2mm thick, the size of a small fruitfly.`
         , `Your piece of paper is now 6.4mm thick, the width a of a small pea.`
         , `Your piece of paper is now 12.8mm thick, the width of a keycap.`
+        , `Your piece of paper is now 25.6mm thick, the width of a quarter.`
+        //,`Your piece of paper is now size measurement, the unit of a item.`
+        //,`Your piece of paper is now size measurement, the unit of a item.`
+        //,`Your piece of paper is now size measurement, the unit of a item.`
+        //,`Your piece of paper is now size measurement, the unit of a item.`
+        //,`Your piece of paper is now size measurement, the unit of a item.`
+        //,`Your piece of paper is now size measurement, the unit of a item.`
+        //,`Your piece of paper is now size measurement, the unit of a item.`
     ]
 //Image srcs (accessed in update function)
 const imageSource =
     [
-        `images/paper.png` //Paper image
-        , `images/hair.png` //Hair image
+        `images/paper.png` 
+        , `images/hair.png` 
         , `images/playing-card.png`
         , 'images/credit-card.png'
         , `images/penny.png`
         , `images/fruit-fly.png`
         , `images/pea.png`
         , `images/keyboard.png`
+        , `images/quarter.png`
+        //,`images/src.png`
+        //,`images/src.png`
+        //,`images/src.png`
+        //,`images/src.png`
+        //,`images/src.png`
+        //,`images/src.png`
+        //,`images/src.png`
     ]
 //Image alts (accessed in update function)
 const imageAlt = 
@@ -39,6 +55,14 @@ const imageAlt =
         , `A small fruitfly.`
         , `A pea.`
         , `A keyboard.`
+        , `A quarter.`
+        //,`alt`
+        //,`alt`
+        //,`alt`
+        //,`alt`
+        //,`alt`
+        //,`alt`
+        //,`alt`
     ]
 //Fold limit variable
 let foldLimit = description.length - 1
