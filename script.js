@@ -1,6 +1,6 @@
 //Variables
 let folds = 0
-let image = document.getElementById(`image`)
+
 let error = false
 let errorMessage = ``
 //Arrays
@@ -66,9 +66,10 @@ const imageAlt =
     ]
 //Fold limit variable
 let foldLimit = description.length - 1
-//Assigning button ids to variuables for event listeners.
+//Assigning element ids to variables
 const fold = document.getElementById("fold-button")
 const unfold = document.getElementById("unfold-button")
+const image = document.getElementById(`image`)
 //Event listeners
 fold.addEventListener("click", foldF)
 unfold.addEventListener("click", unfoldF)

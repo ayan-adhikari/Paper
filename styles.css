@@ -40,6 +40,7 @@
 {
     cursor: pointer;
 }
+/*Click effect*/
 .button:active
 {
     transform: scale(0.95);
