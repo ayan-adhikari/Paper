@@ -31,12 +31,18 @@
     border-width: 2px;
     height: 25px;
     border-radius: 8px;
-    transition: 1.25s ease-in-out;
+    transition: 
+    background-color 1.25s ease-in-out,
+    transform 0.05s ease-in-out;
     width: 100px;
 }
 .button:hover 
 {
     cursor: pointer;
+}
+.button:active
+{
+    transform: scale(0.95);
 }
 /*OOCSS background styling*/
 .green-bg 
