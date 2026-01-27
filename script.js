@@ -44,7 +44,7 @@ const imageAlt =
 let foldLimit = description.length - 1
 //Assigning button ids to variuables for event listeners.
 const fold = document.getElementById("fold-button")
-const unfold = document.getElementById("unfoldfold-button")
+const unfold = document.getElementById("unfold-button")
 //Event listeners
 fold.addEventListener("click", foldF)
 unfold.addEventListener("click", unfoldF)
