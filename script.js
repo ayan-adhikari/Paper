@@ -1,6 +1,5 @@
 //Variables
-let folds = 0
-
+let folds = 0;
 let error = false
 let errorMessage = ``
 //Arrays
@@ -65,7 +64,7 @@ const imageAlt =
         //,`alt`
     ]
 //Fold limit variable
-let foldLimit = description.length - 1
+const foldLimit = description.length - 1
 //Assigning element ids to variables
 const fold = document.getElementById("fold-button")
 const unfold = document.getElementById("unfold-button")
@@ -115,7 +114,7 @@ function unfoldF()
 //Function to update text and images
 function update()
 {
-    if (error == true)
+    if (error)
     {
         //Update error message
         document.getElementById(`error-msg`).textContent = errorMessage
