@@ -1,4 +1,13 @@
 /*Note OOCSS is being used for this project*/ 
+/*Fonts*/
+.headland-1
+{
+    font-family: "Headland One", serif;
+}
+.roboto
+{
+    font-family: "Roboto", sans-serif;
+}
 /*Removing all margins*/
 .element 
 {
