@@ -36,7 +36,7 @@ const imageSource =
         , `images/keyboard.png`
         , `images/quarter.png`
         ,`images/battery.png`
-        ,`images/toilet-paper.webp`//Note I
+        ,`images/toilet-paper.webp`//Note I tried making this png (for consistency) but it didnt work.
         //,`images/src.png`
         //,`images/src.png`
         //,`images/src.png`
@@ -66,17 +66,23 @@ const imageAlt =
 //Fold limit variable
 const foldLimit = description.length - 1
 //Assigning element ids to variables
-const fold = document.getElementById("fold-button")
-const unfold = document.getElementById("unfold-button")
+const fold = document.getElementById(`fold-button`)
+const unfold = document.getElementById(`unfold-button`)
 const image = document.getElementById(`image`)
+const topElement = document.getElementById(`top`)
 //Event listeners
-fold.addEventListener("click", foldF)
-unfold.addEventListener("click", unfoldF)
+fold.addEventListener(`click`, foldF)
+unfold.addEventListener(`click`, unfoldF)
 //Preloading images
 for (let i = 0; i < imageSource.length; i++) {
     const image = imageSource[i];
 }
-
+//Scrolling to the top
+window.addEventListener("load", scrollToTop)
+function scrollToTop()
+{
+    topElement.scrollIntoView()
+}
 //Generating ui
 image.src = imageSource[0]
 document.getElementById(`description-text`).textContent = description[0]

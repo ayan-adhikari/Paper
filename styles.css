@@ -106,6 +106,14 @@
 {
     height: 25px;
 }
+.pxh1
+{
+    height: 0px;
+}
+.pxw0
+{
+    width: 0px;
+}
 .auto-width
 {
     width: auto;
