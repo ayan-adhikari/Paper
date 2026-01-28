@@ -17,8 +17,8 @@ const description =
         , `Your piece of paper is now 25.6mm thick, the width of a quarter.`
         ,`Your piece of paper is now 5.12cm thick, the length of a AA battery.`
         ,`Your piece of paper is now 10.24cm thick, the length of a toilet roll tube.`
-        //,`Your piece of paper is now 20.48cm thick, the measurement of a item.`
-        //,`Your piece of paper is now 4.096cm thick, the measurement of a item.`
+        ,`Your piece of paper is now 20.48cm thick, the length of a toothbrush.`
+        ,`Your piece of paper is now 40.96cm thick, the length of a piece of A3 paper.`
         //,`Your piece of paper is now 81.92cm thick, the measurement of a item.`
         //,`Your piece of paper is now 1.6384m thick, the measurement of a item.`
         //,`Your piece of paper is now 3.2768m thick, the measurement of a item.`
@@ -36,9 +36,9 @@ const imageSource =
         , `images/keyboard.png`
         , `images/quarter.png`
         ,`images/battery.png`
-        ,`images/toilet-paper.webp`//Note I tried making this png (for consistency) but it didnt work.
-        //,`images/src.png`
-        //,`images/src.png`
+        ,`images/toilet-paper.webp`//Note: I tried making this png (for consistency) but it didnt work.
+        ,`images/toothbrush.webp`//Note: All images are now downloading as webps.
+        ,`images/a3-paper.webp`// Note: This may be caused by me switching browser. 
         //,`images/src.png`
         //,`images/src.png`
         //,`images/src.png`
@@ -57,8 +57,8 @@ const imageAlt =
         , `A quarter.`
         ,`A double a battery.`
         ,`A toilet paper tube.`
-        //,`alt`
-        //,`alt`
+        ,`A toothbrush.`
+        ,`A partially rolled up piece of A3 paper.`
         //,`alt`
         //,`alt`
         //,`alt`
