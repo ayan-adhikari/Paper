@@ -19,9 +19,9 @@ const description =
         ,`Your piece of paper is now 10.24cm thick, the length of a toilet roll tube.`
         ,`Your piece of paper is now 20.48cm thick, the length of a toothbrush.`
         ,`Your piece of paper is now 40.96cm thick, the length of a piece of A3 paper.`
-        //,`Your piece of paper is now 81.92cm thick, the measurement of a item.`
-        //,`Your piece of paper is now 1.6384m thick, the measurement of a item.`
-        //,`Your piece of paper is now 3.2768m thick, the measurement of a item.`
+        ,`Your piece of paper is now 81.92cm thick, the length of a skateboard.`
+        ,`Your piece of paper is now 1.6384m thick, the length of a snowboard.`
+        ,`Your piece of paper is now 3.2768m thick, the length of a canoe.`
     ]
 //Image srcs (accessed in update function)
 const imageSource =
@@ -39,29 +39,29 @@ const imageSource =
         ,`images/toilet-paper.webp`//Note: I tried making this png (for consistency) but it didnt work.
         ,`images/toothbrush.webp`//Note: All images are now downloading as webps.
         ,`images/a3-paper.webp`// Note: This may be caused by me switching browser. 
-        //,`images/src.png`
-        //,`images/src.png`
-        //,`images/src.png`
+        ,`images/skateboard.webp`
+        ,`images/snowboard.webp`
+        ,`images/canoe.webp`
     ]
 //Image alts (accessed in update function)
 const imageAlt = 
     [
-        `A piece of paper.`
-        , `A few strands of hair.`
-        , `Some playing cards spread out on a desk.`
-        , `A stack of credit cards.`
-        , `A penny.`
-        , `A small fruitfly.`
-        , `A pea.`
-        , `A keyboard.`
-        , `A quarter.`
-        ,`A double a battery.`
-        ,`A toilet paper tube.`
-        ,`A toothbrush.`
-        ,`A partially rolled up piece of A3 paper.`
-        //,`alt`
-        //,`alt`
-        //,`alt`
+        `A piece of paper.`//0
+        , `A few strands of hair.`//1
+        , `Some playing cards spread out on a desk.`//2
+        , `A stack of credit cards.`//3
+        , `A penny.`//4
+        , `A small fruitfly.`//5
+        , `A pea.`//6
+        , `A keyboard.`//7
+        , `A quarter.`//8
+        ,`A double a battery.`//9
+        ,`A toilet paper tube.`//10
+        ,`A toothbrush.`//11
+        ,`A partially rolled up piece of A3 paper.`//12
+        ,`A skateboard`//13
+        ,`A snowboard`//14
+        ,`A canoe`//15
     ]
 //Fold limit variable
 const foldLimit = description.length - 1
