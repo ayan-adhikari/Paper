@@ -16,7 +16,7 @@ const description =
         , `Your piece of paper is now 12.8mm thick, the width of a keycap.`
         , `Your piece of paper is now 25.6mm thick, the width of a quarter.`
         ,`Your piece of paper is now 5.12cm thick, the length of a AA battery.`
-        //,`Your piece of paper is now 10.24cm thick, the measurement of a item.`
+        ,`Your piece of paper is now 10.24cm thick, the length of a toilet roll tube.`
         //,`Your piece of paper is now 20.48cm thick, the measurement of a item.`
         //,`Your piece of paper is now 4.096cm thick, the measurement of a item.`
         //,`Your piece of paper is now 81.92cm thick, the measurement of a item.`
@@ -36,7 +36,7 @@ const imageSource =
         , `images/keyboard.png`
         , `images/quarter.png`
         ,`images/battery.png`
-        //,`images/src.png`
+        ,`images/toilet-paper.webp`//Note I
         //,`images/src.png`
         //,`images/src.png`
         //,`images/src.png`
@@ -56,7 +56,7 @@ const imageAlt =
         , `A keyboard.`
         , `A quarter.`
         ,`A double a battery.`
-        //,`alt`
+        ,`A toilet paper tube.`
         //,`alt`
         //,`alt`
         //,`alt`
